@@ -169,17 +169,36 @@ a:hover, a:focus, a:active {
 }
 
 #education{
-  background-color: #DCDCDC;
+  background-color: #EEF4FF;
 }
 
 #skills{
   background-color: #FFFF;
 }
 
+#projects{
+  background-color: #EEF4FF;
+}
+
 #interests{
-  background-color: #DCDCDC;
+  background-color: #FFFF;
 }
 
 #awards{
-  background-color: #FFFF;
+  background-color: #EEF4FF;
 }
+
+.card:hover{
+  transform: scale(1.03);
+  transition: transform .2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary{
+  background-color: #0D032C;
+}
+
+.btn-primary:hover{
+  background-color: purple;
+}
+
