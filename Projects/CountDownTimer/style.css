@@ -63,3 +63,14 @@ body{
 .back-at{
 	font-size: 23px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+	color: brown;
+	font-family: 'Merienda', cursive;
+	font-weight: 1500;
+}
