@@ -1,0 +1,56 @@
+@media screen and ( min-width:400px){
+
+}
+@media screen and ( min-width:767px){
+	.why li{ text-align: left; }
+	.li-cont{ display: inline-block; width: calc(100% - 114px) }
+	.why li .sprite{ margin-right:20px; margin-bottom: 0  }
+	
+}
+@media screen and ( min-width:1000px){
+.affix{ box-shadow: 0 2px 3px rgba(0,0,0,0.44) }
+.navbar-brand{ padding: 12px 0; height: 92px; }
+.navbar-nav{ padding: 20px 0 0; transition: 0.3s ease-in}
+.navbar-nav>li{ margin-right: 3px; }	
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li.active>a{background: #17404e; color: #fff}
+.navbar-custom.affix .navbar-brand{ height: 62px; }
+.navbar-custom.affix .navbar-nav{ padding-top: 5px }
+.carousel{ padding-top: 92px }
+.carousel-caption{ width: 543px; }
+.carousel-caption, .card{ background:linear-gradient(to bottom, rgba(23,64,78,0) 0%,rgba(23,64,78,0) 50%,#17404e 51%,#17404e 100%), url(../images/bluecard.png) no-repeat top right; padding: 15px 20px 40px; text-align: left;}
+.carousel-caption p{ padding: 0 25px; font-size: 18px; }
+.carousel-caption h1, .carousel-caption h2{ font-size: 44px;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{ height:auto }
+
+.nav-tabs>li{ display:inline-block; }
+.nav-tabs>li>a{ padding:10px 30px }
+.tab-pane .carousel{ padding-top: 0;}
+.tab-pane .item li{ display: inline-block; width: calc(25% - 4px;); vertical-align: top; padding: 0 30px; min-height: 270px}
+.tab-pane .carousel-control{ height: 102px; width: 35px; margin: auto; background: rgba(23,64,78,0.1);}
+.tab-pane .carousel-inner{ margin: auto; width: 89% }
+
+.heading h2{ font-size:32px; }
+.heading p{ font-size: 18px; }
+.heading p a:hover, .learnmore:hover{ text-decoration: underline; color:#89c353; }
+
+.card{width:54%; padding: 15px 40px 40px; transform: inherit; background:linear-gradient(-135deg, rgba(23,64,78,0) 0%,rgba(23,64,78,0) 15%,#17404e 15%,#17404e 100%), url(../images/bluecard.png) no-repeat top right;}
+.card h2{ font-size: 37px }
+.about{padding:60px 0 60px;}
+.btnlearnmore:hover{ box-shadow: 0 0 0 #000; text-decoration: none; color: #fff; background: #1f7b2b }
+.tab-pane .owl-prev:hover, .tab-pane .owl-next:hover{ background: rgba(23,64,78,0.2) }
+
+.process{ padding:40px 0 0  }
+.contact{ padding: 85px 0 90px;}
+.contactform{  display: inline-block; padding: 7px 0; width: auto; margin: 40px auto 85px}
+.contactform input{ display: inline-block; width: auto; border:0; border-right: 1px solid rgba(23,64,78,0.2); height: 36px; line-height: 36px}
+.contactform button{ padding:0 60px; margin: -7px 0;  display: inline-block; width: auto;}
+.contactform button:hover{ background: #1f7b2b; }
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{ background:#e4e0e0 }
+}
+@media screen and ( max-width:999px){
+.why{ text-align: center; }
+footer{ padding: 15px 10px }
+.facebookshare{ width: 90%; margin: 0 auto }
+}
+
