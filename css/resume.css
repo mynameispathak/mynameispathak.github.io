@@ -196,7 +196,12 @@ a:hover, a:focus, a:active {
 }
 
 .card1{
-  height: 25rem;
+  height: auto;
+}
+@media (min-width: 992px) {
+  section.card1 {
+    height: 25px;
+  }
 }
 
 .manual-card{
@@ -297,9 +302,9 @@ $cards-per-line: (
 .card-img-custom{
   height: 180px;
   width: 180px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
 }
 
 html, body {
