@@ -172,7 +172,7 @@ a:hover, a:focus, a:active {
 }
 
 #internships{
-  background-color: #EEF4FF;
+  background-color: #FFFF;
 }
 
 #education{
@@ -193,6 +193,10 @@ a:hover, a:focus, a:active {
 
 #awards{
   background-color: #EEF4FF;
+}
+
+.card1{
+  height: 25rem;
 }
 
 .manual-card{
@@ -265,6 +269,20 @@ $cards-per-line: (
   color:#34bfa3
  }
 
+ .background-container{
+   position: absolute;
+	top: 15px;
+  right: 0;
+}
+.moon{
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  filter: brightness(75%);
+}
+
  .heart {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
   background-size: 100%;
@@ -276,12 +294,20 @@ $cards-per-line: (
   top: 3px;
 }
 
+.card-img-custom{
+  height: 180px;
+  width: 180px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
 html, body {
 	height: 100%;
 }
 
 #about {
-	background: url('../img/background6.jpg');
+	background: url('../img/background8.jpg');
   background-size: cover;
 }
 
@@ -327,7 +353,7 @@ html, body {
 }
 
 .firefly:nth-child(1)::after {
-	animation-duration: 0s, 10939ms;
+	animation-duration: 15s, 10939ms;
 	animation-delay: 0ms, 7425ms;
 }
 
