@@ -195,8 +195,7 @@ a:hover, a:focus, a:active {
   background-color: #EEF4FF;
 }
 
-@media (min-width: 768px){
-  section.card1{
+.card1{
   height: auto;
 }
 @media (min-width: 992px) {
