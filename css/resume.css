@@ -188,14 +188,11 @@ a:hover, a:focus, a:active {
   background-color: #EEF4FF;
 }
 
-.card{
-  width: 2px;
-}
-
-.card:hover{
-  display: flex;
-  transform: scale(1.03);
+.manual-card{
   transition: transform .2s;
+}
+.manual-card:hover{
+  transform: scale(1.03);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
