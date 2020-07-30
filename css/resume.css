@@ -354,12 +354,12 @@ html, body {
 }
 
 .firefly:nth-child(1)::before {
-	animation-duration: 15s;
+	animation-duration: 9s;
 }
 
 .firefly:nth-child(1)::after {
-	animation-duration: 15s, 10939ms;
-	animation-delay: 0ms, 7425ms;
+	animation-duration: 9s, 6745ms;
+	animation-delay: 0ms, 7955ms;
 }
 
 @keyframes move1 {
