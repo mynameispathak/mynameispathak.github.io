@@ -919,6 +919,7 @@
                 <a href="index.html">aniketpathak.live</a><br><b>Made with <span class="heart"></span> in
                   India</b>
               </p>
+              <p><small><b>Last Modified: </b><span id="last-updated"></span></small></p>
             </div>
           </div>
         </div>
@@ -932,6 +933,11 @@
 
   </div>
 
+
+  <!--Last Updated Javascript-->
+  <script>
+    document.getElementById("last-updated").innerHTML = Date(document.lastModified);
+  </script>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
