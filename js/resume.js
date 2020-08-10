@@ -25,6 +25,11 @@
     target: '#sideNav'
   });
 
+  $('#bologna-list a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+
   $(document).ready(function () {
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
