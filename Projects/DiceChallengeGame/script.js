@@ -1,6 +1,6 @@
-// function refresh() {
-//     document.location.reload();
-// }
+function refresh() {
+    document.location.reload();
+}
 
 function randomNo() {
     return Math.floor(Math.random() * 6) + 1;
