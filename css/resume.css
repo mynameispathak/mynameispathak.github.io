@@ -207,6 +207,12 @@ a:hover, a:focus, a:active {
 .manual-card{
   transition: transform .2s;
 }
+
+.project-card{
+	min-width: 15rem;
+	max-width: 245px;
+}
+
 .manual-card:hover{
   transform: scale(1.03);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
